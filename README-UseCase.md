@@ -5,8 +5,8 @@
 ## SAVE：内容保存 (Content Saving)
 
 ### SAVE-US-1：导入与保存新书 (Import & Save Book)
-- **AS**: a book reader  
-  作为读书人
+- **AS**: a book reader doing import & save
+  作为读书人，进行导入与保存操作
 - **WHEN**: under login and in SAVE module  
   在登录并进入 SAVE 模块时
 - **I WANT**: upload or paste book files and notes  
@@ -17,8 +17,8 @@
   以便管理我的阅读
 
 ### SAVE-US-2：智能分类 (Smart Categorization)
-- **AS**: a book manager  
-  作为书籍管理者
+- **AS**: a book reader doing smart categorization
+  作为读书人，进行智能分类
 - **WHEN**: under having multiple saved items  
   在存在多条保存内容时
 - **I WANT**: auto-categorize saved content by theme  
@@ -29,8 +29,8 @@
   以便快速查找相关内容
 
 ### SAVE-US-3：编辑与删除 (Edit & Delete Content)
-- **AS**: a content editor  
-  作为内容编辑者
+- **AS**: a book reader doing edit & delete
+  作为读书人，进行编辑与删除操作
 - **WHEN**: under having saved items  
   在已有保存内容时
 - **I WANT**: edit or delete entries  
@@ -43,8 +43,8 @@
 ## NEXT：书籍推荐 (Book Recommendations)
 
 ### NEXT-US-1：基于历史推荐 (Recommend from History)
-- **AS**: a book explorer  
-  作为书籍探索者
+- **AS**: a book reader doing history-based recommendation
+  作为读书人，进行基于历史的推荐
 - **WHEN**: under having saved records  
   在有保存记录时
 - **I WANT**: run AlgA to generate three recommendations  
@@ -55,8 +55,8 @@
   以便发现新书
 
 ### NEXT-US-2：再来三本 (More Three)
-- **AS**: a recommendation tuner  
-  作为推荐调优者
+- **AS**: a book reader doing more three recommendations
+  作为读书人，进行再来三本推荐
 - **WHEN**: under unsatisfied recommendations  
   在当前推荐不满意时
 - **I WANT**: click “再来三本”  
@@ -67,8 +67,8 @@
   以便找到心仪书籍
 
 ### NEXT-US-3：本地优先下载 (Local-First Download)
-- **AS**: a resource downloader  
-  作为资源下载者
+- **AS**: a book reader doing local-first download
+  作为读书人，进行本地优先下载
 - **WHEN**: under recommendation list availability  
   在推荐列表可用时
 - **I WANT**: choose pre-download or instant download  
@@ -81,8 +81,8 @@
 ## RECALL：知识回忆 (Knowledge Recall)
 
 ### RECALL-US-1：最近回顾 (Recent Review)
-- **AS**: a knowledge reviewer  
-  作为知识回顾者
+- **AS**: a book reader doing recent review
+  作为读书人，进行最近回顾
 - **WHEN**: under having one day of records  
   在有一天记录时
 - **I WANT**: view records and add insights  
@@ -93,8 +93,8 @@
   以便丰富对过去阅读的理解
 
 ### RECALL-US-2：新增见解 (Add New Insight)
-- **AS**: a knowledge enhancer  
-  作为知识增强者
+- **AS**: a book reader doing add new insight
+  作为读书人，进行新增见解
 - **WHEN**: under having saved records  
   在有保存记录时
 - **I WANT**: add new insights to records  
@@ -105,8 +105,8 @@
   以便反思我的学习
 
 ### RECALL-US-3：洞见链接 (Insight Link)
-- **AS**: a knowledge seeker  
-  作为知识探索者
+- **AS**: a book reader doing insight linking
+  作为读书人，进行洞见链接
 - **WHEN**: under having saved insights  
   在有保存见解时
 - **I WANT**: link my insights to famous thinkers  
@@ -119,8 +119,8 @@
 ## REPORT：数据报告 (Data Reporting)
 
 ### REPORT-US-1：统计可视化 (Statistics Visualization)
-- **AS**: a data analyst  
-  作为数据分析者
+- **AS**: a book reader doing statistics visualization
+  作为读书人，进行统计可视化
 - **WHEN**: under having weekly/monthly/annual records  
   在有周/月/年记录时
 - **I WANT**: generate reading and note charts  
@@ -131,8 +131,8 @@
   以便轻松获取我的阅读统计
 
 ### REPORT-US-2：知识图谱 (Knowledge Graph)
-- **AS**: a knowledge explorer  
-  作为洞见探索者
+- **AS**: a book reader doing knowledge graph
+  作为读书人，进行知识图谱
 - **WHEN**: under having saved records  
   在有保存记录时
 - **I WANT**: view knowledge graph  
@@ -143,8 +143,8 @@
   以便发现思想联系
 
 ### REPORT-US-3：主题分析 (Theme Analysis)
-- **AS**: a theme analyzer  
-  作为主题分析者
+- **AS**: a book reader doing theme analysis
+  作为读书人，进行主题分析
 - **WHEN**: under having saved records  
   在有保存记录时
 - **I WANT**: generate theme distribution chart  
